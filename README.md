@@ -1,4 +1,4 @@
-# S3 data download Guide
+# S3 data download
 
 ## 1. 사전작업
 - AWS IAM 사용자 생성(AmazonS3FullAccess 권한 설정 필수)
@@ -13,7 +13,7 @@ AWS Secret Access Key [None]:
 Default region name [None]:
 Default output format [None]:
 ```
-## 3. 데이터 해당 디렉토리에 다운로드(압축파일이라면 압축해제하고 .paths 파일)
+## 3. 데이터 해당 디렉토리에 다운로드<br />(압축파일이라면 압축해제하고 .paths 파일)
 ```
 #cd /<directory to store data> 
 $ cd /mnt/nas/. 
