@@ -16,8 +16,9 @@ Default output format [None]:
 ## 3. 데이터 해당 디렉토리에 다운로드<br />(압축파일이라면 압축해제하고 .paths 파일)
 ```
 #cd /<directory to store data> 
-$ cd /mnt/nas/. 
-$ aws s3 cp s3://<link>.warc.gz /mnr/nas/.
+$ cd /mnt/nas/.
+
+$ wget <download url>
 ```
 ## 4. paths 파일 split_paths.py 로 3등분으로 나뉘어 파일 저장
 ex) warc.paths => warc_part1.paths, warc_part2.paths, warc_part3.paths<br />
