@@ -38,5 +38,5 @@ ex) download_s3_part1.py 은 warc_part1.paths, download_s3_part2.py 은 warc_par
 ```
 python3 download_s3_part1.py
 ```
-- c 위에 a,b 새로운 터미널 열어서 2번 더 반복(part2, part3 까지 해야 함.)
+- c 위에 a,b 새로운 터미널 열어서 반복(part8까지 해야 함.)
          
